@@ -1,1 +1,59 @@
-{}
+{
+  "project": {
+    "name": "Travel Planner",
+    "description": "AI Powered Travel Planner"
+  },
+
+  "technology": {
+
+    "backend": {
+
+      "language":"Java",
+
+      "version":"21",
+
+      "framework":"Spring Boot 3.x"
+
+    },
+
+    "database":"MySQL",
+
+    "workflow":"Temporal",
+
+    "ai":"LangGraph",
+
+    "llm":"OpenRouter"
+
+  },
+
+  "architecture":{
+
+    "pattern":"Clean Architecture",
+
+    "layers":[
+
+      "Controller",
+
+      "Service",
+
+      "Repository",
+
+      "Entity",
+
+      "DTO",
+
+      "Mapper",
+
+      "Workflow",
+
+      "Activity",
+
+      "LangGraph",
+
+      "Configuration"
+
+    ]
+
+  }
+
+}
